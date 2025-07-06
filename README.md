@@ -14,9 +14,26 @@ This is a full-stack assignment project for the GrowthProAI internship. It simul
 ## 📁 Project Structure
 
 growthproai-dashboard/
-├── frontend/ # React + Vite + Tailwind CSS
-├── backend/ # Node.js + Express
-└── README.md
+├── frontend/                  # React + Vite + Tailwind CSS (Client)
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── BusinessForm.jsx
+│   │   │   ├── BusinessCard.jsx
+│   │   │   └── Spinner.jsx
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   └── package.json
+│
+├── backend/                  # Node.js + Express API (Server)
+│   ├── index.js              # Main entry file (Express server)
+│   └── package.json
+│
+└── README.md                 # Project instructions and documentation
+
 
 
 ---
