@@ -13,6 +13,7 @@ This is a full-stack assignment project for the GrowthProAI internship. It simul
 
 ## 📁 Project Structure
 
+```bash
 growthproai-dashboard/
 ├── frontend/                  # React + Vite + Tailwind CSS (Client)
 │   ├── public/
@@ -32,7 +33,8 @@ growthproai-dashboard/
 │   ├── index.js              # Main entry file (Express server)
 │   └── package.json
 │
-└── README.md                 # Project instructions and documentation
+└── README.md                 # Project documentation
+
 
 
 
